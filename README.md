@@ -23,4 +23,16 @@ Aplicativo web para gerenciar listas de compras utilizando **Python** no backend
 - SQLAlchemy
 - HTML5 + JavaScript
 
+---
+
+## Crie o banco de dados
+
+CREATE DATABASE lista_compras;
+
+Atualize as configurações de conexão no main.py se necessário:
+- DB_HOST = "localhost"
+- DB_NAME = "lista_compras"
+- DB_USER = "postgres"
+- DB_PASS = "sua_senha"
+
 
